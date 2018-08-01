@@ -30,7 +30,7 @@ The task is of interest to researchers in the areas of machine learning (classif
 ## Data
 Overall, the dataset will contain a multi-class set of frames and videos for at least 4 different diseases, at least 4 different landmarks and at least 2 different findings. Each class will consist of at least 1000 frames and at least 2 short videos. The training set will be released with ground truth. All the frames in training set will be labelled with corresponding class-label. Up to 10% of training set frames will have a detailed ground truth masks showing the exact location of disease or finding within the frame. The ground truth is collected with the help of GI endoscopists from our partner hospitals. We will also provide pre-extracted visual features for all data. 
 
-##Ground truth and evaluation
+## Ground truth and evaluation
 1. Classification of diseases and findings: The evaluation metric is the multiclass version of the Mathews Correlation Coefficient, which captures the quality of classification as reflected in the correlation between the ground truth and the classifier's predictions. 
 
 2. Fast and efficient classification: For the evaluation, the participants are asked to run the code on a standard PC and provide information about hardware used. The time from input to output will be measured and weighed by the accuracy of the output. Participants are also asked to record the amount of training data used. The amount of training data will also be weighted by the accuracy of the output.
