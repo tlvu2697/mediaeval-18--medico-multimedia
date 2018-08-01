@@ -9,8 +9,8 @@ Based on this data, the participants will be asked to solve four subtasks (two m
 
 1. ***Classification of diseases and findings***. Design and implement classifiers to predict the annotations of medical experts.
 2. ***Fast and efficient classification***. Design and implement a classifier that minimize that minimize the processing time and also the training data requirements.
-3. ***Basic Reporting (exploratory/optional)***. Summarization of a video in terms of how many different diseases and findings have occurred. For example, if the same polyp occurs twice it should only be counted one time for the summary.
-4. ***Advanced reporting (exploratory/optional)***. Automatically create a text-report for a physician for three video cases. When the task data is released, we will provide some examples, and a detailed description of what the medical experts do with the report (+ a definition of what a text report is and what should capture and how).
+3. ***Basic Reporting*** (exploratory/optional). Summarization of a video in terms of how many different diseases and findings have occurred. For example, if the same polyp occurs twice it should only be counted one time for the summary.
+4. ***Advanced reporting*** (exploratory/optional). Automatically create a text-report for a physician for three video cases. When the task data is released, we will provide some examples, and a detailed description of what the medical experts do with the report (a definition of what a text report is and what should capture and how).
 
 The dataset is publicly available for participants and other multimedia researchers without any restriction.
 
