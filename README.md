@@ -7,10 +7,10 @@ For the task, we will provide a large dataset of at least nine different finding
 
 Based on this data, the participants will be asked to solve four subtasks (two main tasks and two optional tasks):
 
-1. **Classification of diseases and findings**. Design and implement classifiers to predict the annotations of medical experts.
-2. **Fast and efficient classification**. Design and implement a classifier that minimize that minimize the processing time and also the training data requirements.
-3. **Basic Reporting (exploratory/optional)**. Summarization of a video in terms of how many different diseases and findings have occurred. For example, if the same polyp occurs twice it should only be counted one time for the summary.
-4. **Advanced reporting (exploratory/optional)**. Automatically create a text-report for a physician for three video cases. When the task data is released, we will provide some examples, and a detailed description of what the medical experts do with the report (+ a definition of what a text report is and what should capture and how).
+1. ***Classification of diseases and findings***. Design and implement classifiers to predict the annotations of medical experts.
+2. ***Fast and efficient classification***. Design and implement a classifier that minimize that minimize the processing time and also the training data requirements.
+3. ***Basic Reporting (exploratory/optional)***. Summarization of a video in terms of how many different diseases and findings have occurred. For example, if the same polyp occurs twice it should only be counted one time for the summary.
+4. ***Advanced reporting (exploratory/optional)***. Automatically create a text-report for a physician for three video cases. When the task data is released, we will provide some examples, and a detailed description of what the medical experts do with the report (+ a definition of what a text report is and what should capture and how).
 
 The dataset is publicly available for participants and other multimedia researchers without any restriction.
 
@@ -29,11 +29,8 @@ Overall, the dataset will contain a multi-class set of frames and videos for at 
 
 ## Ground truth and evaluation
 1. Classification of diseases and findings: The evaluation metric is the multiclass version of the Mathews Correlation Coefficient, which captures the quality of classification as reflected in the correlation between the ground truth and the classifier's predictions. 
-
 2. Fast and efficient classification: For the evaluation, the participants are asked to run the code on a standard PC and provide information about hardware used. The time from input to output will be measured and weighed by the accuracy of the output. Participants are also asked to record the amount of training data used. The amount of training data will also be weighted by the accuracy of the output.
-
 3. Basic Reporting (exploratory/optional): The metric will reflect the completeness and the correctness of the summary. This subtask allows us to focus on understanding the performance of the automatic systems in practice (from the point of view of the medical expert).
-
 4. Advanced reporting (exploratory/optional): This subtask will be assessed manually from two of our medical partners in terms of how useful it is for them and if it satisfies existing demands for documentation of endoscopic procedures. The assessment will follow a list of requirements that will be provided to the participants before they submit their results.
 
 ## Recommended reading
@@ -43,7 +40,6 @@ Overall, the dataset will contain a multi-class set of frames and videos for at 
 > [4] Y. Wang, W. Tavanapong, J. Wong, J. H. Oh, and P. C. de Groen. Polyp-alert: Near real-time feedback during colonoscopy. Computer methods and programs in biomedicine, (3), 2015.  
 
 We recommend also having a look at the last year’s task papers in the MediaEval 2017 Proceedings:
-
 > Guillaume Gravier et al. (eds.) 2017. Proceedings of the MediaEval 2017 Workshop, Dublin, Ireland, Sept. 13-15, 2017.
 
 ## Task organizers
