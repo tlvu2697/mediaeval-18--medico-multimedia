@@ -8,11 +8,8 @@ For the task, we will provide a large dataset of at least nine different finding
 Based on this data, the participants will be asked to solve four subtasks (two main tasks and two optional tasks):
 
 1. **Classification of diseases and findings**. Design and implement classifiers to predict the annotations of medical experts.
-
 2. **Fast and efficient classification**. Design and implement a classifier that minimize that minimize the processing time and also the training data requirements.
-
 3. **Basic Reporting (exploratory/optional)**. Summarization of a video in terms of how many different diseases and findings have occurred. For example, if the same polyp occurs twice it should only be counted one time for the summary.
-
 4. **Advanced reporting (exploratory/optional)**. Automatically create a text-report for a physician for three video cases. When the task data is released, we will provide some examples, and a detailed description of what the medical experts do with the report (+ a definition of what a text report is and what should capture and how).
 
 The dataset is publicly available for participants and other multimedia researchers without any restriction.
@@ -39,15 +36,15 @@ Overall, the dataset will contain a multi-class set of frames and videos for at 
 
 4. Advanced reporting (exploratory/optional): This subtask will be assessed manually from two of our medical partners in terms of how useful it is for them and if it satisfies existing demands for documentation of endoscopic procedures. The assessment will follow a list of requirements that will be provided to the participants before they submit their results.
 
-Recommended reading
-  [1] Pogorelov, Konstantin, et al. "Kvasir: a multi-class image dataset for computer aided gastrointestinal disease detection." Proceedings of the 8th ACM Multimedia Systems Conference. ACM, 2017. 
-  [2] Riegler, Michael, et al. "Multimedia and Medicine: Teammates for Better Disease Detection and Survival." Proceedings of the 2016 ACM Multimedia Conference. ACM, 2016.
-  [3] Y. Wang, W. Tavanapong, J. Wong, J. Oh, and P. C. de Groen. Computer-aided detection of retroflexion in colonoscopy. In Proc. of CBMS, pages 1–6, 2011.
-  [4] Y. Wang, W. Tavanapong, J. Wong, J. H. Oh, and P. C. de Groen. Polyp-alert: Near real-time feedback during colonoscopy. Computer methods and programs in biomedicine, (3), 2015.
+## Recommended reading
+> [1] Pogorelov, Konstantin, et al. "Kvasir: a multi-class image dataset for computer aided gastrointestinal disease detection." Proceedings of the 8th ACM Multimedia Systems Conference. ACM, 2017.  
+> [2] Riegler, Michael, et al. "Multimedia and Medicine: Teammates for Better Disease Detection and Survival." Proceedings of the 2016 ACM Multimedia Conference. ACM, 2016.  
+> [3] Y. Wang, W. Tavanapong, J. Wong, J. Oh, and P. C. de Groen. Computer-aided detection of retroflexion in colonoscopy. In Proc. of CBMS, pages 1–6, 2011.  
+> [4] Y. Wang, W. Tavanapong, J. Wong, J. H. Oh, and P. C. de Groen. Polyp-alert: Near real-time feedback during colonoscopy. Computer methods and programs in biomedicine, (3), 2015.  
 
 We recommend also having a look at the last year’s task papers in the MediaEval 2017 Proceedings:
 
-  Guillaume Gravier et al. (eds.) 2017. Proceedings of the MediaEval 2017 Workshop, Dublin, Ireland, Sept. 13-15, 2017. c
+> Guillaume Gravier et al. (eds.) 2017. Proceedings of the MediaEval 2017 Workshop, Dublin, Ireland, Sept. 13-15, 2017.
 
 ## Task organizers
 - Konstantin Pogorelov, Simula Research Laboratory & University of Oslo, Norway konstantin at simula.no
